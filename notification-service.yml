@@ -19,7 +19,7 @@ remind:
     subject: PiggyMetrics reminder
 
 backup:
-  cron: 0 * * * * *
+  cron: */1 * * * *
   email:
     text: "Howdy, {0}. Your account backup is ready.\r\n\r\nCheers,\r\nPiggyMetrics team"
     subject: PiggyMetrics account backup
