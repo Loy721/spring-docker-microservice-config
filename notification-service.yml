@@ -19,7 +19,7 @@ remind:
     subject: PiggyMetrics reminder
 
 backup:
-  cron: * * * * * *
+  cron: 0 0 12 * * *
   email:
     text: "Howdy, {0}. Your account backup is ready.\r\n\r\nCheers,\r\nPiggyMetrics team"
     subject: PiggyMetrics account backup
@@ -36,8 +36,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 465
-    username: dolgikhdanil4test@gmail.com
-    password: parolldlyaserivce2
+    username: dev-user
+    password: dev-password
     properties:
       mail:
         smtp:
