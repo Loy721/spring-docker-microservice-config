@@ -21,6 +21,7 @@ backup:
 spring:
   kafka:
     topic: notifications
+    parti
     bootstrap-servers: localhost:9092
   data:
     mongodb:
@@ -44,3 +45,6 @@ spring:
             fallback: false
           ssl:
             enable: true
+topic:
+  partitions: 3
+  replicas: 1
