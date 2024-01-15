@@ -20,7 +20,7 @@ backup:
 
 spring:
   kafka:
-    topic: test
+    topic: notifications
     bootstrap-servers: localhost:9092
   data:
     mongodb:
