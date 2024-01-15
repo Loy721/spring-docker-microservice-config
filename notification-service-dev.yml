@@ -19,11 +19,6 @@ backup:
   cron: 0 * * * * *
 
 spring:
-  kafka:
-    topic: notifications
-    bootstrap-servers: localhost:9092
-    key-serializer: org.apache.kafka.common.serialization.StringSerializer
-    value-serializer: org.apache.kafka.common.serialization.JsonSerializer
   data:
     mongodb:
       host: localhost
