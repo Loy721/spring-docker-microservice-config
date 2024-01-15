@@ -46,4 +46,4 @@ spring:
             enable: true
 topic:
   partitions: 3
-  replicas: 1
+  replicas: 3
