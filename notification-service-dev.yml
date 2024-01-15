@@ -21,7 +21,6 @@ backup:
 spring:
   kafka:
     topic: notifications
-    parti
     bootstrap-servers: localhost:9092
   data:
     mongodb:
