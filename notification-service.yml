@@ -19,6 +19,9 @@ backup:
   cron: 0 * * * * *
 
 spring:
+  kafka:
+      topic: notifications
+      bootstrap-servers: localhost:9092
   data:
     mongodb:
       host: notification-mongodb
