@@ -28,7 +28,7 @@ spring:
       username: user
       password: ${MONGODB_PASSWORD:password}
       database: piggymetrics
-      port: 28000
+      port: 27017
   mail:
     host: smtp.gmail.com
     port: 465
