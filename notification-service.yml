@@ -44,3 +44,6 @@ spring:
             fallback: false
           ssl:
             enable: true
+topic:
+  partitions: 3
+  replicas: 1
