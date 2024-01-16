@@ -13,12 +13,6 @@ server:
 spring:
   kafka:
     bootstrap-servers: localhost:9092
-    consumer:
-      properties:
-        spring:
-          json:
-            trusted:
-              packages: com.piggymetrics.notification.producer.message.NotificationTypeRecipient
   mail:
     host: smtp.gmail.com
     port: 465
